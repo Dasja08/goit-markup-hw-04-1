@@ -1,2 +1,2 @@
-# goit-markup-hw-03
-Home Assignment 3
+# goit-markup-hw-02
+ GoIT Home Assignment 2
