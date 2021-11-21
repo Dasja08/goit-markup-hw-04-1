@@ -1,857 +1,942 @@
-
 /* Стиль для Index и Portfolio */
-
+html {
+  box-sizing: border-box;
+}
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+  box-sizing: inherit;
 }
 
 body {
-    font-family: 'Roboto', 'Raleway', sans-serif;
-    color: #212121;
+  font-family: "Roboto", "Raleway", sans-serif;
+  color: #212121;
 }
 
 :root {
-    --main-text-font: 'Roboto', sans-serif;
+  --main-text-font: "Roboto", sans-serif;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.link.header-mail {
+  margin-right: 50px;
+}
+
+.container {
+  display: flex;
+  margin: 0 auto;
+  outline: 2px solid tomato;
+}
+
+.button {
+  border-radius: 4px;
+  padding: 22px 6px;
+}
+
+.section-products-buttons {
+  margin-bottom: 50px;
+}
+
+.button:not(:last-child) {
+  margin-right: 8px;
+}
+
+.header {
+  width: 1600px;
+  height: 80px;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 94px;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.header-right {
+  margin-left: auto;
+  display: flex;
+}
+
+.header-logo {
+  margin-left: 215px;
+  margin-right: 93px;
+  margin-top: 24;
+  margin-top: 24;
+}
+
+.header-page-studio {
+  margin-right: 50px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.header-page-portfolio {
+  margin-right: 50px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.header-page-contacts {
+  margin-top: 32px;
+  margin-bottom: 32px;
 }
 
 .list {
-    list-style: none;
+  list-style: none;
 }
 
 .link {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 button {
-    color: black;
-}  
+  color: black;
+}
 
 button:hover {
-    color: blue;
+  color: blue;
 }
 
 button:focus {
-    color: blue;
+  color: blue;
 }
 
 button {
-cursor: pointer;
+  cursor: pointer;
 }
 
-.page-studio {
-position: absolute;
-width: 49px;
-height: 16px;
-left: 453px;
-top: 32px;
+.header-page-studio {
+  width: 49px;
+  height: 16px;
+  bottom: 32px;
+  top: 32px;
 
-font-family: var(--main-text-font);
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
+  font-family: var(--main-text-font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 
-color: black;
-} 
-
-.page-portfolio {
-position: absolute;
-width: 77px;
-height: 16px;
-left: 552px;
-top: 32px;
-
-font-family: var(--main-text-font);
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
-
-color: #212121; 
+  color: black;
 }
 
-.page-contacts {
-position: absolute;
-width: 68px;
-height: 16px;
-left: 679px;
-top: 32px;
+.header-page-portfolio {
+  width: 77px;
+  height: 16px;
+  bottom: 32px;
+  top: 32px;
 
-font-family: var(--main-text-font);
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
+  font-family: var(--main-text-font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 
-color: #212121;
+  color: #212121;
 }
 
- 
-.page-portfolio:hover,
-.page-portfolio:focus {
-    color: blue;
+.header-page-contacts {
+  width: 68px;
+  height: 16px;
+  bottom: 32px;
+  top: 32px;
+
+  font-family: var(--main-text-font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: #212121;
 }
 
-.page-studio:hover,
-.page-studio:focus {
-    color: blue;
+.header-page-portfolio:hover,
+.header-page-portfolio:focus {
+  color: blue;
 }
 
-.page-contacts:hover,
-.page-contacts:focus {
-    color: blue;
+.header-page-studio:hover,
+.header-page-studio:focus {
+  color: blue;
 }
 
-.email-address {
-    position: absolute;
-width: 135px;
-height: 16px;
-left: 1078px;
-top: 32px;
-
-font-family: var(--main-text-font);
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
-
-color: black; 
+.header-page-contacts:hover,
+.header-page-contacts:focus {
+  color: blue;
 }
 
-.phone-number {
-position: absolute;
-width: 122px;
-height: 16px;
-left: 1263px;
-top: 32px;
+.header-mail {
+  width: 135px;
+  height: 16px;
+  bottom: 32px;
+  top: 32px;
 
-font-family: var(--main-text-font);
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
+  font-family: var(--main-text-font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 
-color: #757575;
+  color: black;
+}
+
+.header-tel {
+  width: 122px;
+  height: 16px;
+  bottom: 32px;
+  top: 32px;
+
+  font-family: var(--main-text-font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: #757575;
+}
+
+/* Стиль для Section-Products-Buttons */
+
+.section-products-buttons .button {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 22px;
+  padding-right: 22px;
+
+  border-radius: 4px;
+
+  text-align: center;
+
+  color: #212121;
+}
+
+.button-all {
+  width: 73px;
+  height: 38px;
+  margin-right: 8px;
+  margin-left: 280px;
+}
+
+.button-all-websites {
+  width: 128px;
+  height: 38px;
+  margin-right: 8px;
+}
+
+.button-apps {
+  width: 145px;
+  height: 38px;
+  margin-right: 8px;
+}
+
+.button-design {
+  width: 103px;
+  height: 38px;
+  margin-right: 8px;
+}
+
+.button-marketing {
+  width: 130px;
+  height: 38px;
+}
+
+.container-products-samples {
+  width: 1385px;
+  height: 1360px;
+  margin-left: 215px;
+  margin-bottom: 94px;
+}
+
+.list-products-samples {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.list-products-samples .list-item {
+  margin-right: 30px;
+  margin-top: 30px;
+}
+
+/* Стиль для Footer-Container */
+
+.footer-container {
+  width: 1600px;
+  height: 252px;
 }
 
 /* Стиль для Index */
 
 .header-first-section {
-position: absolute;
-width: 696px;
-height: 120px;
-left: 452px;
-top: 280px;
+  width: 696px;
+  height: 120px;
+  left: 452px;
+  top: 280px;
 
-font-family: var(--main-text-font);
-font-style: normal;
-font-weight: 900;
-font-size: 44px;
-line-height: 1.36;
-/* or 136% */
-
-text-align: center;
-letter-spacing: 0.06em;
-text-transform: uppercase;
-
-color: black;
-
+  font-family: var(--main-text-font);
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  /* or 136% */
+  color: black;
 }
 
 .button-order-service {
-position: absolute;
-width: 136px;
-height: 30px;
-left: 732px;
-top: 440px;
+  position: absolute;
+  width: 136px;
+  height: 30px;
+  left: 732px;
+  top: 440px;
 
-font-family: var(--main-text-font);
-font-style: normal;
-font-weight: bold;
-font-size: 16px;
-line-height: 1.875;
-/* identical to box height, or 187% */
+  font-family: var(--main-text-font);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.875;
+  /* identical to box height, or 187% */
 
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.06em;
-
-color: black;
+  color: black;
 }
 
-.logo-webstudio {position: absolute;
-width: 145px;
-height: 31px;
-left: 215px;
-top: 24px;
+.logo-webstudio {
+  position: absolute;
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 24px;
 
-font-family: 'Raleway', sans-serif;
-font-style: normal;
-font-weight: bold;
-font-size: 26px;
-line-height: 1.19;
-/* identical to box height */
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
 
-letter-spacing: 0.03em;
-;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
 }
 
 .header-first-block-attention {
-    position: absolute;
-width: 270px;
-height: 16px;
-left: 215px;
-top: 774px;
+  width: 270px;
+  height: 16px;
+  left: 215px;
+  top: 774px;
 
-font-family: var(--main-text-font);
-font-style: normal;
-font-weight: bold;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.03em;
-text-transform: uppercase;
+  font-family: var(--main-text-font);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 
-color: #212121;
+  color: #212121;
 }
 .text-first-block {
-    position: absolute;
-width: 270px;
-height: 75px;
-left: 215px;
-top: 800px;
+  width: 270px;
+  height: 75px;
+  left: 215px;
+  top: 800px;
 
-font-family: var(--main-text-font);
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 1.71;
-/* or 171% */
+  font-family: var(--main-text-font);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  /* or 171% */
 
-letter-spacing: 0.03em;
+  letter-spacing: 0.03em;
 
-color: #757575;
+  color: #757575;
 }
 .header-second-block-punctuality {
-    position: absolute;
-width: 270px;
-height: 16px;
-left: 515px;
-top: 774px;
+  width: 270px;
+  height: 16px;
+  left: 515px;
+  top: 774px;
 
-font-family: var(--main-text-font);
-font-style: normal;
-font-weight: bold;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.03em;
-text-transform: uppercase;
+  font-family: var(--main-text-font);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 
-color: #212121;
+  color: #212121;
 }
 .text-second-block {
-    position: absolute;
-width: 270px;
-height: 75px;
-left: 515px;
-top: 800px;
+  width: 270px;
+  height: 75px;
+  left: 515px;
+  top: 800px;
 
-font-family: var(--main-text-font);
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 1.71;
-/* or 171% */
+  font-family: var(--main-text-font);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  /* or 171% */
 
-letter-spacing: 0.03em;
+  letter-spacing: 0.03em;
 
-color: #757575;
+  color: #757575;
 }
 .header-third-block-planning {
-    position: absolute;
-width: 270px;
-height: 16px;
-left: 815px;
-top: 774px;
+  width: 270px;
+  height: 16px;
+  left: 815px;
+  top: 774px;
 
-font-family: var(--main-text-font);
-font-style: normal;
-font-weight: bold;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.03em;
-text-transform: uppercase;
+  font-family: var(--main-text-font);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 
-color: #212121;
+  color: #212121;
 }
 .text-third-block {
-    position: absolute;
-width: 270px;
-height: 75px;
-left: 815px;
-top: 800px;
+  width: 270px;
+  height: 75px;
+  left: 815px;
+  top: 800px;
 
-font-family: var(--main-text-font);
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 1.71;
-/* or 171% */
+  font-family: var(--main-text-font);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  /* or 171% */
 
-letter-spacing: 0.03em;
+  letter-spacing: 0.03em;
 
-color: #757575;
+  color: #757575;
 }
 .header-fourth-block-techno {
-    position: absolute;
-width: 270px;
-height: 16px;
-left: 1115px;
-top: 774px;
+  width: 270px;
+  height: 16px;
+  left: 1115px;
+  top: 774px;
 
-font-family: var(--main-text-font);
-font-style: normal;
-font-weight: bold;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.03em;
-text-transform: uppercase;
+  font-family: var(--main-text-font);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 
-color: #212121;
+  color: #212121;
 }
 .text-fourth-block {
-    position: absolute;
-width: 270px;
-height: 75px;
-left: 1115px;
-top: 800px;
+  width: 270px;
+  height: 75px;
+  left: 1115px;
+  top: 800px;
 
-font-family: var(--main-text-font);
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 24px;
-/* or 171% */
+  font-family: var(--main-text-font);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
 
-letter-spacing: 0.03em;
+  letter-spacing: 0.03em;
 
-color: #757575;
+  color: #757575;
 }
 .header-third-section {
-    position: absolute;
-width: 376px;
-height: 42px;
-left: 612px;
-top: 969px;
+  width: 376px;
+  height: 42px;
+  left: 612px;
+  top: 969px;
 
-font-family: var(--main-text-font);
-font-style: normal;
-font-weight: bold;
-font-size: 36px;
-line-height: 1.16;
-text-align: center;
-letter-spacing: 0.03em;
+  font-family: var(--main-text-font);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
 
+  letter-spacing: 0.03em;
 }
 
-.header-fourth-section {position: absolute;
-width: 264px;
-height: 42px;
-left: 668px;
-top: 1543px;
+.header-fourth-section {
+  width: 264px;
+  height: 42px;
+  left: 668px;
+  top: 1543px;
 
-font-family: var(--main-text-font);
-font-style: normal;
-font-weight: bold;
-font-size: 36px;
-line-height: 1.16;
-text-align: center;
-letter-spacing: 0.03em;
+  font-family: var(--main-text-font);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
 
+  letter-spacing: 0.03em;
 }
 
 .header-fourth-section-first-block {
-position: absolute;
-width: 151px;
-height: 19px;
-left: 275px;
-top: 1925px;
+  width: 151px;
+  height: 19px;
+  left: 275px;
+  top: 1925px;
 
-font-family: var(--main-text-font);
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.18;
-/* identical to box height */
+  font-family: var(--main-text-font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  /* identical to box height */
 
-text-align: center;
-letter-spacing: 0.03em;
-} 
+  letter-spacing: 0.03em;
+}
 .header-fourth-section-second-block {
-position: absolute;
-width: 109px;
-height: 19px;
-left: 596px;
-top: 1925px;
+  width: 109px;
+  height: 19px;
+  left: 596px;
+  top: 1925px;
 
-font-family: var(--main-text-font);
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.18;
-/* identical to box height */
+  font-family: var(--main-text-font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  /* identical to box height */
 
-text-align: center;
-letter-spacing: 0.03em;
+  letter-spacing: 0.03em;
 }
 
 .header-fourth-section-third-block {
-position: absolute;
-width: 137px;
-height: 19px;
-left: 882px;
-top: 1925px;
+  width: 137px;
+  height: 19px;
+  left: 882px;
+  top: 1925px;
 
-font-family: var(--main-text-font);
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.18;
-/* identical to box height */
+  font-family: var(--main-text-font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  /* identical to box height */
 
-text-align: center;
-letter-spacing: 0.03em;
+  letter-spacing: 0.03em;
 }
 
 .header-fourth-section-fourth-block {
-position: absolute;
-width: 134px;
-height: 19px;
-left: 1183px;
-top: 1925px;
+  width: 134px;
+  height: 19px;
+  left: 1183px;
+  top: 1925px;
 
-font-family: var(--main-text-font);
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.18;
-/* identical to box height */
+  font-family: var(--main-text-font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  /* identical to box height */
 
-text-align: center;
-letter-spacing: 0.03em;
-} 
+  letter-spacing: 0.03em;
+}
 
 .text-fourth-section-first-block {
-position: absolute;
-width: 130px;
-height: 19px;
-left: 285px;
-top: 1954px;
+  width: 130px;
+  height: 19px;
+  left: 285px;
+  top: 1954px;
 
-font-family: var(--main-text-font);
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 1.18;
-/* identical to box height */
+  font-family: var(--main-text-font);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.18;
+  /* identical to box height */
 
-text-align: center;
-letter-spacing: 0.03em;
-
+  letter-spacing: 0.03em;
 }
 .text-fourth-section-second-block {
-position: absolute;
-width: 147px;
-height: 19px;
-left: 577px;
-top: 1954px;
+  width: 147px;
+  height: 19px;
+  left: 577px;
+  top: 1954px;
 
-font-family: var(--main-text-font);
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 1.18;
-/* identical to box height */
+  font-family: var(--main-text-font);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.18;
+  /* identical to box height */
 
-text-align: center;
-letter-spacing: 0.03em;
+  letter-spacing: 0.03em;
 }
 .text-fourth-section-third-block {
-position: absolute;
-width: 76px;
-height: 19px;
-left: 912px;
-top: 1954px;
+  width: 76px;
+  height: 19px;
+  left: 912px;
+  top: 1954px;
 
-font-family: var(--main-text-font);
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 1.18;
-/* identical to box height */
+  font-family: var(--main-text-font);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.18;
+  /* identical to box height */
 
-text-align: center;
-letter-spacing: 0.03em;
+  letter-spacing: 0.03em;
 }
 .text-fourth-section-fourth-block {
-position: absolute;
-width: 87px;
-height: 19px;
-left: 1207px;
-top: 1954px;
+  width: 87px;
+  height: 19px;
+  left: 1207px;
+  top: 1954px;
 
-font-family: var(--main-text-font);
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 1.18;
-/* identical to box height */
-
-text-align: center;
-letter-spacing: 0.03em;
+  font-family: var(--main-text-font);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.18;
+  /* identical to box height */
+  letter-spacing: 0.03em;
 }
 .address-style {
-    font-style: normal;
+  font-style: normal;
 }
 
 /* Стиль для Portfolio */
 
 .header-second-section-first-block {
-    position: absolute;
-width: 322px;
-height: 36px;
-left: 239px;
-top: 576px;
+  width: 322px;
+  height: 36px;
+  left: 239px;
+  top: 576px;
 
-font-family: 'Roboto', sans-serif;
-font-style: normal;
-font-weight: bold;
-font-size: 18px;
-line-height: 2;
-/* identical to box height, or 200% */
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  /* identical to box height, or 200% */
 
-letter-spacing: 0.06em;
+  letter-spacing: 0.06em;
 }
 
 .text-second-section-first-block {
-    position: absolute;
-width: 322px;
-height: 30px;
-left: 239px;
-top: 616px;
+  width: 322px;
+  height: 30px;
+  left: 239px;
+  top: 616px;
 
-font-family: 'Roboto', sans-serif;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 1.875;
-/* identical to box height, or 187% */
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.875;
+  /* identical to box height, or 187% */
 
-letter-spacing: 0.03em;
+  letter-spacing: 0.03em;
 
-color: #757575;
+  color: #757575;
 }
 
 .header-second-section-second-block {
-    position: absolute;
-width: 322px;
-height: 36px;
-left: 639px;
-top: 576px;
+  width: 322px;
+  height: 36px;
+  left: 639px;
+  top: 576px;
 
-font-family: 'Roboto', sans-serif;
-font-style: normal;
-font-weight: bold;
-font-size: 18px;
-line-height: 2;
-/* identical to box height, or 200% */
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  /* identical to box height, or 200% */
 
-letter-spacing: 0.06em;
+  letter-spacing: 0.06em;
 }
 
 .text-second-section-second-block {
-    position: absolute;
-width: 322px;
-height: 30px;
-left: 639px;
-top: 616px;
+  width: 322px;
+  height: 30px;
+  left: 639px;
+  top: 616px;
 
-font-family: 'Roboto', sans-serif;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 1.875;
-/* identical to box height, or 187% */
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.875;
+  /* identical to box height, or 187% */
 
-letter-spacing: 0.03em;
+  letter-spacing: 0.03em;
 
-color: #757575;
+  color: #757575;
 }
 
 .header-second-section-third-block {
-position: absolute;
-width: 322px;
-height: 36px;
-left: 1039px;
-top: 576px;
+  width: 322px;
+  height: 36px;
+  left: 1039px;
+  top: 576px;
 
-font-family: 'Roboto', sans-serif;
-font-style: normal;
-font-weight: bold;
-font-size: 18px;
-line-height: 2;
-/* identical to box height, or 200% */
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  /* identical to box height, or 200% */
 
-letter-spacing: 0.06em;
+  letter-spacing: 0.06em;
 }
 
 .text-second-section-third-block {
-    position: absolute;
-width: 322px;
-height: 30px;
-left: 1039px;
-top: 616px;
+  width: 322px;
+  height: 30px;
+  left: 1039px;
+  top: 616px;
 
-font-family: 'Roboto', sans-serif;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 1.875;
-/* identical to box height, or 187% */
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.875;
+  /* identical to box height, or 187% */
 
-letter-spacing: 0.03em;
+  letter-spacing: 0.03em;
 
-color: #757575;
+  color: #757575;
 }
 
 .header-second-section-fourth-block {
-    position: absolute;
-width: 322px;
-height: 36px;
-left: 239px;
-top: 1010px;
+  width: 322px;
+  height: 36px;
+  left: 239px;
+  top: 1010px;
 
-font-family: 'Roboto', sans-serif;
-font-style: normal;
-font-weight: bold;
-font-size: 18px;
-line-height: 2;
-/* identical to box height, or 200% */
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  /* identical to box height, or 200% */
 
-letter-spacing: 0.06em;
-
+  letter-spacing: 0.06em;
 }
 
 .text-second-section-fourth-block {
-    position: absolute;
-width: 322px;
-height: 30px;
-left: 239px;
-top: 1050px;
+  width: 322px;
+  height: 30px;
+  left: 239px;
+  top: 1050px;
 
-font-family: 'Roboto', sans-serif;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 1.875;
-/* identical to box height, or 187% */
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.875;
+  /* identical to box height, or 187% */
 
-letter-spacing: 0.03em;
+  letter-spacing: 0.03em;
 
-color: #757575;
+  color: #757575;
 }
 
 .header-second-section-fifth-block {
-    position: absolute;
-width: 322px;
-height: 36px;
-left: 639px;
-top: 1010px;
+  width: 322px;
+  height: 36px;
+  left: 639px;
+  top: 1010px;
 
-font-family: 'Roboto', sans-serif;
-font-style: normal;
-font-weight: bold;
-font-size: 18px;
-line-height: 2;
-/* identical to box height, or 200% */
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  /* identical to box height, or 200% */
 
-letter-spacing: 0.06em;
-
+  letter-spacing: 0.06em;
 }
 
 .text-second-section-fifth-block {
-    position: absolute;
-width: 322px;
-height: 30px;
-left: 639px;
-top: 1050px;
+  width: 322px;
+  height: 30px;
+  left: 639px;
+  top: 1050px;
 
-font-family: 'Roboto', sans-serif;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 1.875;
-/* identical to box height, or 187% */
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.875;
+  /* identical to box height, or 187% */
 
-letter-spacing: 0.03em;
+  letter-spacing: 0.03em;
 
-color: #757575;
+  color: #757575;
 }
 
 .header-second-section-sixth-block {
-    position: absolute;
-width: 322px;
-height: 36px;
-left: 1039px;
-top: 1010px;
+  width: 322px;
+  height: 36px;
+  left: 1039px;
+  top: 1010px;
 
-font-family: 'Roboto', sans-serif;
-font-style: normal;
-font-weight: bold;
-font-size: 18px;
-line-height: 2;
-/* identical to box height, or 200% */
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  /* identical to box height, or 200% */
 
-letter-spacing: 0.06em;
+  letter-spacing: 0.06em;
 }
 
 .text-second-section-sixth-block {
-    position: absolute;
-width: 322px;
-height: 30px;
-left: 1039px;
-top: 1050px;
+  width: 322px;
+  height: 30px;
+  left: 1039px;
+  top: 1050px;
 
-font-family: 'Roboto', sans-serif;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 1.875;
-/* identical to box height, or 187% */
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.875;
+  /* identical to box height, or 187% */
 
-letter-spacing: 0.03em;
+  letter-spacing: 0.03em;
 
-color: #757575;
-
+  color: #757575;
 }
 
 .header-second-section-seventh-block {
-    position: absolute;
-width: 322px;
-height: 36px;
-left: 239px;
-top: 1444px;
+  width: 322px;
+  height: 36px;
+  left: 239px;
+  top: 1444px;
 
-font-family: 'Roboto', sans-serif;
-font-style: normal;
-font-weight: bold;
-font-size: 18px;
-line-height: 2;
-/* identical to box height, or 200% */
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  /* identical to box height, or 200% */
 
-letter-spacing: 0.06em;
-
+  letter-spacing: 0.06em;
 }
 
 .text-second-section-seventh-block {
-    position: absolute;
-width: 322px;
-height: 30px;
-left: 239px;
-top: 1484px;
+  width: 322px;
+  height: 30px;
+  left: 239px;
+  top: 1484px;
 
-font-family: 'Roboto', sans-serif;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 1.875;
-/* identical to box height, or 187% */
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.875;
+  /* identical to box height, or 187% */
 
-letter-spacing: 0.03em;
+  letter-spacing: 0.03em;
 
-color: #757575;
+  color: #757575;
 }
 
 .header-second-section-eighth-block {
-    position: absolute;
-width: 322px;
-height: 36px;
-left: 639px;
-top: 1444px;
+  width: 322px;
+  height: 36px;
+  left: 639px;
+  top: 1444px;
 
-font-family: 'Roboto', sans-serif;
-font-style: normal;
-font-weight: bold;
-font-size: 18px;
-line-height: 2;
-/* identical to box height, or 200% */
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  /* identical to box height, or 200% */
 
-letter-spacing: 0.06em;
-
+  letter-spacing: 0.06em;
 }
 
 .text-second-section-eighth-block {
-    position: absolute;
-width: 322px;
-height: 30px;
-left: 639px;
-top: 1484px;
+  width: 322px;
+  height: 30px;
+  left: 639px;
+  top: 1484px;
 
-font-family: 'Roboto', sans-serif;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 1.875;
-/* identical to box height, or 187% */
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.875;
+  /* identical to box height, or 187% */
 
-letter-spacing: 0.03em;
+  letter-spacing: 0.03em;
 
-color: #757575;
+  color: #757575;
 }
 
 .header-second-section-ninth-block {
-    position: absolute;
-width: 322px;
-height: 36px;
-left: 1039px;
-top: 1444px;
+  width: 322px;
+  height: 36px;
+  left: 1039px;
+  top: 1444px;
 
-font-family: 'Roboto', sans-serif;
-font-style: normal;
-font-weight: bold;
-font-size: 18px;
-line-height: 2; 
-/* identical to box height, or 200% */
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  /* identical to box height, or 200% */
 
-letter-spacing: 0.06em;
-
+  letter-spacing: 0.06em;
 }
 
 .text-second-section-ninth-block {
-    position: absolute;
-width: 322px;
-height: 30px;
-left: 1039px;
-top: 1484px;
+  width: 322px;
+  height: 30px;
+  left: 1039px;
+  top: 1484px;
 
-font-family: 'Roboto', sans-serif;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 1.875;
-/* identical to box height, or 187% */
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.875;
+  /* identical to box height, or 187% */
 
-letter-spacing: 0.03em;
+  letter-spacing: 0.03em;
 
-color: #757575;
-
-} 
-
-
+  color: #757575;
+}

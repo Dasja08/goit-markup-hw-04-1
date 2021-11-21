@@ -15,98 +15,105 @@
 </head> 
 
 <body>
-    <header>
-        <nav>
-        <a href="./index.html" style="font-size: 26px;" class="link"> <span style="color: blue;">Web</span>Studio</a>
-        <a href="./studio.html" class="page-studio link">Студия</a>
-        <a href="./portfolio.html" class="page-portfolio link">Портфолио</a>
-        <a href="./contacts.html" class="page-contacts link">Контакты</a>
-        </nav>
-        <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
-        <a href="tel:+380961111111" class="link">+38096 111 11 11</a>
+    <header class="header">
+<div class="container header-container"> 
+        <nav class="header-navigation">
+        <a href="./index.html" style="font-size: 26px;" class="link header-logo"> <span style="color: blue;">Web</span>Studio</a>
+        <a href="./studio.html" class="header-page-studio link">Студия</a> 
+        <a href="./portfolio.html" class="header-page-portfolio link">Портфолио</a> 
+        <a href="./contacts.html" class="header-page-contacts link">Контакты</a> 
+        </nav> 
+        
+        <div class="header-right"> 
+        <a href="mailto:info@devstudio.com" class="link header-mail">info@devstudio.com</a>
+        <a href="tel:+380961111111" class="link header-tel">+38096 111 11 11</a>
+        </div> 
+    </div>
     </header>
 
     <main> 
-<section>
-        <button type="button" width="29px">Все</button>    
-        <button type="button" width="84px">Веб-сайты</button> 
-        <button type="button" width="101px">Приложения</button>
-        <button type="button" width="59px">Дизайн</button> 
-        <button type="button" width="86px">Маркетинг</button>
-    </section>
+        <div class="container container-products-samples">
+<section class="section section-products-buttons">
+        <button type="button" width="29px" height="26px" class="button button-all">Все</button>    
+        <button type="button" width="84px" height="26px" class="button button-all-websites">Веб-сайты</button> 
+        <button type="button" width="101px" height="26px" class="button button-apps">Приложения</button>
+        <button type="button" width="59px" height="26px" class="button button-design">Дизайн</button> 
+        <button type="button" width="86px" height="26px" class="button button-marketing">Маркетинг</button> 
     
-    <section>
-<ul class="list">
-    <li>
-        <a href="" class="link">
-        <img src="./Images/portfolio.technokriak.jpg" alt="Технокряк вебсайт" width="370">
+<ul class="list list-products-samples">
+    <li class="list-item">
+        <a href="" class="link"> 
+        <img src="./Images/portfolio.technokriak.jpg" alt="Технокряк вебсайт" min-width="370">
         <h1 class="header-second-section-first-block">Технокряк</h1> 
         <p class="text-second-section-first-block">Веб-сайт</p>     
         </a>
     </li>  
-    <li>
+    <li class="list-item"> 
         <a href="" class="link">
-        <img src="./Images/portfolio.poster.NewOrlean.jpg" alt="Новый Орлеан против Голден Стар" width="370">
+        <img src="./Images/portfolio.poster.NewOrlean.jpg" alt="Новый Орлеан против Голден Стар" min-width="370">
         <h1>Постер <span lang="eng" class="header-second-section-second-block">New Orlean vs Golden Star</span></h1> 
         <p class="text-second-section-second-block">Дизайн</p>
         </a>
     </li>
-    <li>
+    <li class="list-item">
         <a href="" class="link">
-        <img src="./Images/portfolio.SeafoodRestaurant.jpg" alt="Ресторан Сифуд" width="370">
+        <img src="./Images/portfolio.SeafoodRestaurant.jpg" alt="Ресторан Сифуд" min-width="370">
         <h1 class="header-second-section-third-block">Ресторан Seafood</h1>
         <p class="text-second-section-third-block">Приложение</p>
         </a>
     </li> 
-    <li>
+    <li class="list-item">
         <a href="" class="link">
-        <img src="./Images/portfolio.ProjectPrime.jpg" alt="Проект Прайм" width="370">
+        <img src="./Images/portfolio.ProjectPrime.jpg" alt="Проект Прайм" min-width="370">
         <h1 class="header-second-section-fourth-block">Проект<span lang="eng">Prime</span></h1>
         <p class="text-second-section-fourth-block">Маркетинг</p>
         </a>
     </li>
-    <li>
+    <li class="list-item">
         <a href="" class="link">
-        <img src="./Images/portfolio.ProjectBoxes.jpg" alt="Проект Боксес" width="370">
+        <img src="./Images/portfolio.ProjectBoxes.jpg" alt="Проект Боксес" min-width="370">
         <h1 class="header-second-section-fifth-block">Проект <span lang="eng">Boxes</span></h1>
         <p class="text-second-section-fifth-block">Приложение</p>
         </a>
     </li>
-    <li>
+    <li class="list-item">
         <a href="" class="link">
-        <img src="./Images/portfolio.Inspiration.jpg" alt="Вебсайт Инспирейшен" width="370">
+        <img src="./Images/portfolio.Inspiration.jpg" alt="Вебсайт Инспирейшен" min-width="370">
         <h1 class="header-second-section-sixth-block"> <span lang="eng">Inspiration has no Borders</span></h1>
         <p class="text-second-section-sixth-block">Веб-сайт</p>
         </a> 
     </li>
-    <li>
+    <li class="list-item">
         <a href="" class="link">
-        <img src="./Images/portfolio.LimitedEdition.jpg" alt="Издание Лимитед Эдишн" width="370">
+        <img src="./Images/portfolio.LimitedEdition.jpg" alt="Издание Лимитед Эдишн" min-width="370">
         <h1 class="header-second-section-seventh-block">Издание <span lang="eng">Limited Edition</span></h1>
         <p class="text-second-section-seventh-block">Дизайн</p> 
         </a>
     </li>
-    <li>
+    <li class="list-item">
         <a href="" class="link">
-        <img src="./Images/portfolio.ProjectLAB.jpg" alt="Проект ЛАБ" width="370">
+        <img src="./Images/portfolio.ProjectLAB.jpg" alt="Проект ЛАБ" min-width="370">
         <h1 class="header-second-section-eighth-block">Проект <span lang="eng">LAB</span></h1>
         <p class="text-second-section-eighth-block">Маркетинг</p>
         </a>
     </li>
-    <li>
+    <li class="list-item">
         <a href="" class="link">
-        <img src="./Images/portfolio.GrowingBusiness.jpg" alt="Приложение Рост Бизнеса" width="370">
+        <img src="./Images/portfolio.GrowingBusiness.jpg" alt="Приложение Рост Бизнеса" min-width="370">
         <h1 class="header-second-section-ninth-block"> <span lang="eng">Growing Business</span></h1>
         <p class="text-second-section-ninth-block">Приложение</p>  
         </a>
     </li> 
 </ul> 
 </section>
-    </main>
+</div>
 
+</main>
+ 
     <footer>
+        <div class="container footer-container">
         <address class="address-style">
-            <ul class="list">
+            <ul class="list"> 
                 <li>
                     <a href="./index.html" class="link">WebStudio</a>
                 </li>
@@ -121,6 +128,7 @@
                 </li>
             </ul>
         </address>
+        </div>
     </footer>
 </body>
 
