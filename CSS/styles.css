@@ -49,10 +49,6 @@ ul {
   padding: 22px 6px;
 }
 
-.section-products-buttons {
-  margin-bottom: 50px;
-}
-
 .button:not(:last-child) {
   margin-right: 8px;
 }
@@ -62,7 +58,6 @@ ul {
   height: 80px;
   margin-left: 0px;
   margin-top: 0px;
-  margin-bottom: 94px;
 }
 
 .header-container {
@@ -79,7 +74,7 @@ ul {
   margin-left: 215px;
   margin-right: 93px;
   margin-top: 24;
-  margin-top: 24;
+  margin-bottom: 25;
 }
 
 .header-page-studio {
@@ -238,11 +233,30 @@ button {
   color: #212121;
 }
 
+.section-products-buttons {
+  margin-bottom: 50px;
+}
+.list-item {
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.list-item:nth-child(3) {
+  margin-right: 0px;
+}
+
+.list-item:nth-child(6) {
+  margin-right: 0px;
+}
+
+.list-item:nth-child(9) {
+  margin-right: 0px;
+}
 .button-all {
   width: 73px;
   height: 38px;
   margin-right: 8px;
-  margin-left: 280px;
+  margin-left: 495px;
 }
 
 .button-all-websites {
@@ -266,24 +280,29 @@ button {
 .button-marketing {
   width: 130px;
   height: 38px;
+  margin-right: 279px;
 }
 
 .container-products-samples {
-  width: 1385px;
+  width: 1170px;
   height: 1360px;
   margin-left: 215px;
+  margin-right: 215px;
   margin-bottom: 94px;
 }
 
 .list-products-samples {
   display: flex;
   flex-wrap: wrap;
-  align-content: center;
+  align-content: stretch;
 }
 
-.list-products-samples .list-item {
-  margin-right: 30px;
-  margin-top: 30px;
+.section-products-samples {
+  display: flex;
+}
+
+.container-products-samples {
+  display: flex;
 }
 
 /* Стиль для Footer-Container */
@@ -291,6 +310,43 @@ button {
 .footer-container {
   width: 1600px;
   height: 252px;
+  margin: 0 0;
+}
+
+.footer-list {
+  display: flex;
+  flex-direction: column;
+}
+.footer-logo {
+  width: 145px;
+  height: 31px;
+  margin-left: 105px;
+  margin-top: 60px;
+  margin-right: 1240px;
+}
+
+.footer-address {
+  min-width: 231px;
+  height: 21px;
+  margin-left: 215px;
+  margin-top: 0px;
+  margin-bottom: 9px;
+}
+
+.footer-mail {
+  width: 231px;
+  height: 21px;
+  margin-left: 215px;
+  margin-top: 0px;
+  margin-bottom: 9px;
+}
+
+.footer-phone {
+  width: 231px;
+  height: 21px;
+  margin-left: 215px;
+  margin-top: 0px;
+  margin-bottom: 60px;
 }
 
 /* Стиль для Index */
