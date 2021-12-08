@@ -1,0 +1,248 @@
+
+/* Стиль для Index и Portfolio */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', 'Raleway', sans-serif;
+    background-color: #E5E5E5;
+}
+
+:root {
+    --main-text-font: 'Roboto', sans-serif;
+}
+:root {
+    --seondary-text-font: 'Raleway', sans-serif;
+}
+
+:root {
+    --main-text-color: #212121;
+}
+:root {
+    --second-text-color: #2196F3;
+}
+:root {
+    --third-text-color: #757575;
+}
+
+:root {
+    --fourth-text-color: #FFFFFF;
+}
+
+:root {
+    --background-color: #2F303A;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+button {
+    color: var(--main-text-color);
+}  
+
+button:hover {
+    color: var(--second-text-color);
+}
+
+button:focus {
+    color: var(--second-text-color);
+}
+
+button {
+cursor: pointer;
+}
+
+.email-link {
+font-family: var(--main-text-font);
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+letter-spacing: 0.02em;
+color: var(--third-text-color);
+}
+
+.phone-link {
+font-family: var(--main-text-font);
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+letter-spacing: 0.02em;
+color: var(--third-text-color);
+}
+
+
+.page-studio {
+font-family: var(--main-text-font);
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--main-text-color);
+} 
+
+.page-portfolio {
+font-family: var(--main-text-font);
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--main-text-color);
+}
+
+.page-contacts {
+font-family: var(--main-text-font);
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--main-text-color);
+}
+
+ 
+.page-portfolio:hover,
+.page-portfolio:focus {
+    color: var(--second-text-color);
+}
+
+.page-studio:hover,
+.page-studio:focus {
+    color: var(--second-text-color);
+}
+
+.page-contacts:hover,
+.page-contacts:focus {
+    color: var(--second-text-color);
+}
+
+/* Стиль для Index */
+
+.header-first-section {
+font-family: var(--main-text-font);
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: var(--fourth-text-color);
+}
+
+.button-order-service {
+font-family: var(--main-text-font);
+font-weight: 700;
+font-size: 16px;
+line-height: 1.875;
+letter-spacing: 0.06em;
+color: var(--fourth-text-color);
+}
+
+.logo-webstudio {
+font-family: 'Raleway', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+}
+
+.header-second-section-blocks {
+font-family: var(--main-text-font);
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--main-text-color);
+}
+.text-second-section-blocks {
+font-family: var(--main-text-font);
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: var(--third-text-color);
+}
+
+.header-third-section {
+font-family: var(--main-text-font);
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--main-text-color);
+}
+
+.header-fourth-section {
+font-family: var(--main-text-font);
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center; 
+letter-spacing: 0.03em;
+color: var(--main-text-color);
+}
+
+.header-fourth-section-blocks {
+font-family: var(--main-text-font);
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--main-text-color);
+}
+
+.text-fourth-section-blocks {
+font-family: var(--main-text-font);
+font-weight: 400;
+font-size: 16px;
+line-height: 1.18;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--third-text-color);
+}
+
+.address-style {
+    font-style: normal;
+}
+
+/* Стиль для Portfolio */
+
+.header-second-section-portfolio-blocks {
+font-family: var(--main-text-font);
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: var(--main-text-color);
+}
+
+.text-second-section-portfolio-blocks {
+font-family: var(--main-text-font);
+font-weight: 400;
+font-size: 16px;
+line-height: 1.875;
+letter-spacing: 0.03em;
+color: var(--third-text-color);
+}
+
+.buttons-list-portfolio {
+    font-family: var(--main-text-font);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+    list-style: none;
+    color: var(--main-text-color);
+}
