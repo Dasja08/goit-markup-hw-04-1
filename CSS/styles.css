@@ -406,12 +406,16 @@ padding-left: 70px;
 
 .samples-list .item:not(:nth-child(3n)) {
     margin-right: 30px;
+
 }
 
 .samples-list .item:not(:nth-last-child(-n + 3)) {
     margin-bottom: 30px;
 }
 
+.samples-list .item {
+    flex-basis: calc((100%-30px) / 3);
+}
 
 .header-second-section-portfolio-blocks {
 font-family: var(--main-text-font);
