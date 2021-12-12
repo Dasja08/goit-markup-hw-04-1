@@ -413,10 +413,6 @@ padding-left: 70px;
     margin-bottom: 30px;
 }
 
-.samples-list .item {
-    flex-basis: calc((100%-30px) / 3);
-}
-
 .header-second-section-portfolio-blocks {
 font-family: var(--main-text-font);
 font-weight: 700;
