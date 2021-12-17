@@ -219,15 +219,18 @@ text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
 color: var(--fourth-text-color);
-margin-top: 200px;
 margin-bottom: 30px;
+}
+
+.index-first-section {
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 .first-section-button {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 200px;
 }
 
 .button-order-service {
@@ -250,10 +253,13 @@ line-height: 1.19;
 letter-spacing: 0.03em;
 }
 
+.index-second-section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
 .advantages-second-section {
     display: flex;
-    margin-top: 94px;
-    margin-bottom: 94px;
 }
 
 .advantages-second-section .item {
@@ -281,9 +287,12 @@ letter-spacing: 0.03em;
 color: var(--third-text-color);
 }
 
+.index-third-section {
+    padding-bottom: 94px; 
+}
+
 .what-we-do-third-section {
     display: flex;
-    margin-bottom: 94px;
 }
 
 .what-we-do-third-section .item:not(:last-child) {
@@ -300,13 +309,15 @@ letter-spacing: 0.03em;
 color: var(--main-text-color);
 
 margin-bottom: 50px;
-
 }
 
+.index-fourth-section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+ 
 .our-team-fourth-section {
     display: flex;
-    margin-bottom: 94px;
-
 }
 
 .our-team-fourth-section .item:not(:last-child) {
@@ -325,6 +336,13 @@ color: var(--main-text-color);
 margin-bottom: 50px;
 }
 
+.fourth-section-description {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 60px; 
+    padding-right: 59px;
+}
+
 .header-fourth-section-blocks {
 font-family: var(--main-text-font);
 font-weight: 500;
@@ -333,10 +351,7 @@ line-height: 1.18;
 text-align: center;
 letter-spacing: 0.03em;
 color: var(--main-text-color);
-padding-top: 30px;
-padding-right: 59px;
-padding-bottom: 10px;
-padding-left: 60px;
+margin-bottom: 10px;
 }
 
 .text-fourth-section-blocks {
@@ -347,9 +362,11 @@ line-height: 1.18;
 text-align: center;
 letter-spacing: 0.03em;
 color: var(--third-text-color);
-padding-right: 70px;
-padding-bottom: 30px;
-padding-left: 70px;
+} 
+
+.footer-section {
+    padding-top: 60px;
+    padding-bottom: 60px;
 } 
 
 .address-style {
@@ -358,20 +375,15 @@ padding-left: 70px;
 
 .footer-logo {
     display: inline-block;
-    padding-bottom: 20px;
-    padding-top: 60px;
+    margin-bottom: 20px;
 }
 
 .footer-address {
-    padding-bottom: 9px;
+    margin-bottom: 9px;
 }
 
 .footer-email {
-    padding-bottom: 9px;
-}
-
-.footer-phone {
-    padding-bottom: 60px;
+    margin-bottom: 9px;
 }
 
 /* Стиль для Portfolio */
@@ -380,7 +392,7 @@ padding-left: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 94px;
+    padding-top: 94px;
     margin-bottom: 50px;
 }
 
@@ -396,21 +408,31 @@ padding-left: 70px;
     letter-spacing: 0.03em;
     list-style: none;
     color: var(--main-text-color);
-}
+    padding-top: 6px;
+    padding-right: 22px;
+    padding-bottom: 6px;
+    padding-left: 22px;
+} 
 
 .samples-list {
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 94px;
+    padding-bottom: 94px;
 }
 
 .samples-list .item:not(:nth-child(3n)) {
     margin-right: 30px;
-
 }
 
 .samples-list .item:not(:nth-last-child(-n + 3)) {
     margin-bottom: 30px;
+}
+
+.portfolio-second-section-description {
+    padding-top: 20px;
+    padding-right: 24px;
+    padding-bottom: 20px; 
+    padding-left: 24px;
 }
 
 .header-second-section-portfolio-blocks {
@@ -420,10 +442,7 @@ font-size: 18px;
 line-height: 2;
 letter-spacing: 0.06em;
 color: var(--main-text-color);
-padding-top: 20px;
-padding-left: 24px;
-padding-right: 24px;
-padding-bottom: 4px;
+margin-bottom: 4px;
 }
 
 .text-second-section-portfolio-blocks {
@@ -433,8 +452,5 @@ font-size: 16px;
 line-height: 1.875;
 letter-spacing: 0.03em;
 color: var(--third-text-color);
-padding-left: 24px;
-padding-right: 24px;
-padding-bottom: 20px;
 }
 
