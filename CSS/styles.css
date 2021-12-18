@@ -9,7 +9,7 @@
 
 body {
     font-family: 'Roboto', 'Raleway', sans-serif;
-    background-color: #E5E5E5;
+    background-color: #FFFFFF;
 }
 
 :root {
@@ -53,13 +53,6 @@ ul {
   margin-bottom: 0;
   padding-left: 0;
 }
-
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-}
-
 
 .list {
     list-style: none;
@@ -159,10 +152,13 @@ color: var(--main-text-color);
 
 /* Стиль для Index */
 
-.container {
-    width: 1200px;
+.section-samples {
     padding-left: 15px;
     padding-right: 15px;
+}
+
+.container {
+    width: 1200px;
     margin-top: 0; 
     margin-bottom: 0;
     margin-right: auto;
@@ -234,7 +230,9 @@ margin-bottom: 30px;
 }
 
 .button-order-service {
-    
+width: 200px;
+height: 50px;
+padding: 10px 32px;
 font-family: var(--main-text-font);
 font-weight: 700;
 font-size: 16px;
@@ -277,6 +275,7 @@ line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--main-text-color);
+margin-bottom: 10px;
 }
 .text-second-section-blocks {
 font-family: var(--main-text-font);
@@ -339,8 +338,6 @@ margin-bottom: 50px;
 .fourth-section-description {
     padding-top: 30px;
     padding-bottom: 30px;
-    padding-left: 60px; 
-    padding-right: 59px;
 }
 
 .header-fourth-section-blocks {
@@ -428,6 +425,9 @@ color: var(--third-text-color);
     margin-bottom: 30px;
 }
 
+.item-samples { 
+    border: 1px solid #EEEEEE;
+}
 .portfolio-second-section-description {
     padding-top: 20px;
     padding-right: 24px;
