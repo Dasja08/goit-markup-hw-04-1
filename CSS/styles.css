@@ -80,6 +80,7 @@ cursor: pointer;
 }
 
 .email-link {
+margin-right: 30px;
 font-family: var(--main-text-font);
 font-style: normal;
 font-weight: 500;
