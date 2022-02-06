@@ -292,7 +292,7 @@ letter-spacing: 0.03em;
     padding-bottom: 34px;
 } 
 
-.link-mob:envelope {
+.link-envelope:hover {
     fill: #2196F3;
 }
 
