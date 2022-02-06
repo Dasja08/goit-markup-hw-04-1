@@ -267,6 +267,10 @@ letter-spacing: 0.03em;
     display: flex;
     margin-right: 10px;
 }
+.icon-mob {
+    width: 10px;
+    height: 16px;
+}
 
 .icons-block {
   width: 270px;
