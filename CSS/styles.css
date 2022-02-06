@@ -269,10 +269,8 @@ letter-spacing: 0.03em;
 
 }
 
-.div-mob {
-    display: flex;
-    justify-content: center;
-    justify-items: center;
+.link-mob {
+    margin-right: 10px;
     padding-top: 32px;
     padding-bottom: 32px;
 } 
