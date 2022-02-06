@@ -271,12 +271,10 @@ letter-spacing: 0.03em;
 }
 
 .icon-antenna-features {
-    display: flex;
     justify-content: center;
     align-items: center;
     width: 66px;
     height: 70px;
-    
 }
 
 .advantages-second-section {
