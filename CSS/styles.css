@@ -208,6 +208,11 @@ display: flex;
     margin-right: 93px;
 }
 
+.index-first-section {
+    background-image: url(../images/homepeople.jpg);
+    background-color: rgba(47, 48, 58, 0.4);
+}
+
 .header-first-section {
 font-family: var(--main-text-font);
 font-weight: 900;
@@ -257,6 +262,15 @@ letter-spacing: 0.03em;
     padding-top: 94px;
     padding-bottom: 94px;
 }
+
+.icons-block {
+  display: block;
+  width: 270px;
+  height: 120px;
+  background-color: #F5F4FA;
+  
+}
+
 
 .advantages-second-section {
     display: flex;
@@ -362,6 +376,10 @@ text-align: center;
 letter-spacing: 0.03em;
 color: var(--third-text-color);
 } 
+
+.section-footer {
+    background-color: var(--background-color);
+}
 
 .footer-section {
     padding-top: 60px;
