@@ -263,13 +263,12 @@ letter-spacing: 0.03em;
     padding-bottom: 94px;
 }
 
-.icon-mobile {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.mob {
     margin-right: 10px;
     padding-top: 34px;
     padding-bottom: 34px;
+}
+.icon-mobile {
     width: 10px;
     height: 16px;
     fill: #212121;
