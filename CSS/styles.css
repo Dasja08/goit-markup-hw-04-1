@@ -263,6 +263,12 @@ letter-spacing: 0.03em;
     padding-bottom: 94px;
 }
 
+.icon-mobile {
+    width: 10px;
+    height: 16px;
+    margin-right: 10px;
+}
+
 .icons-block {
   width: 270px;
   height: 120px;
@@ -270,9 +276,6 @@ letter-spacing: 0.03em;
 }
 
 .icon-antenna-features {
-    display: flex;
-  justify-content: center;
-  align-items: center;
     width: 66px;
     height: 70px;
 }
