@@ -264,6 +264,7 @@ letter-spacing: 0.03em;
 }
 
 .div-mob {
+    display: flex;
     margin-right: 10px;
 }
 
