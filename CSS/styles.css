@@ -266,7 +266,14 @@ letter-spacing: 0.03em;
 .icon-mob {
     width: 10px;
     height: 16px;
+
 }
+
+.div-mob {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+} 
 
 .icons-block {
   width: 270px;
