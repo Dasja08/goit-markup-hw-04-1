@@ -270,7 +270,13 @@ letter-spacing: 0.03em;
   background-color: #F5F4FA;
 }
 
-
+.icon-antenna-features {
+    display: flex;
+    justify-content: center;
+    width: 66px;
+    height: 70px;
+    
+}
 
 .advantages-second-section {
     display: flex;
