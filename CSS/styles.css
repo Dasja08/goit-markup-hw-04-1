@@ -276,6 +276,11 @@ letter-spacing: 0.03em;
     padding-bottom: 32px;
 }
 
+.link-mob:hover {
+    fill: #2196F3;
+}
+
+
 .icon-envelope {
     width: 16px;
     height: 12px;
@@ -286,7 +291,11 @@ letter-spacing: 0.03em;
     padding-top: 34px;
     padding-bottom: 34px;
 } 
- 
+
+.link-mob:envelope {
+    fill: #2196F3;
+}
+
 .icons-block {
   width: 270px;
   height: 120px;
