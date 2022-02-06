@@ -273,8 +273,19 @@ letter-spacing: 0.03em;
     margin-right: 10px;
     padding-top: 32px;
     padding-bottom: 32px;
-} 
+}
 
+.icon-envelope {
+    width: 10px;
+    height: 16px;
+}
+
+.link-envelope {
+    margin-right: 10px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+} 
+ 
 .icons-block {
   width: 270px;
   height: 120px;
