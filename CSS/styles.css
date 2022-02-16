@@ -309,6 +309,7 @@ letter-spacing: 0.03em;
 }
 
 .advantages-second-section {
+    flex-direction: column;
     display: flex;
 }
 
