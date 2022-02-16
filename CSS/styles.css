@@ -293,14 +293,13 @@ letter-spacing: 0.03em;
 }  
 
 .link-envelope:hover { 
-    fill: hsl(207, 90%, 54%);
+    fill: #2196F3;
 }  
 
 .icons-block {
   width: 270px;
   height: 120px;
   background-color: #F5F4FA;
-  justify-content: center;
 }
 
 .icon-antenna-features {
@@ -309,11 +308,12 @@ letter-spacing: 0.03em;
 }
 
 .advantages-second-section {
-    flex-direction: column;
     display: flex;
 }
 
 .advantages-second-section .item {
+    display: flex;
+    flex-direction: column;
     width: 270px;
 }
 .advantages-second-section .item:not(:last-child) {
