@@ -297,8 +297,6 @@ letter-spacing: 0.03em;
 }  
 
 .icons-block {
-    display: flex;
-    justify-content: center;
   width: 270px;
   height: 120px;
   background-color: #F5F4FA;
@@ -320,6 +318,13 @@ letter-spacing: 0.03em;
     justify-content: center;
     width: 270px;
 }
+
+.advantages-second-section .icons-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .advantages-second-section .item:not(:last-child) {
     margin-right: 30px;
 }
