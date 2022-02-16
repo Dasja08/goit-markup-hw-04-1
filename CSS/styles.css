@@ -293,7 +293,7 @@ letter-spacing: 0.03em;
 }  
 
 .link-envelope:hover { 
-    fill: #2196F3;
+    fill: hsl(207, 90%, 54%);
 }  
 
 .icons-block {
@@ -314,7 +314,6 @@ letter-spacing: 0.03em;
 }
 
 .advantages-second-section .item {
-    display: flex;
     width: 270px;
 }
 .advantages-second-section .item:not(:last-child) {
