@@ -311,6 +311,11 @@ letter-spacing: 0.03em;
     height: 70px;
 }
 
+.icon-clock-features {
+    width: 66px;
+    height: 70px;
+}
+
 .advantages-second-section {
     display: flex;
 }
