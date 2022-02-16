@@ -314,6 +314,7 @@ letter-spacing: 0.03em;
 .advantages-second-section .item {
     display: flex;
     flex-direction: column;
+    align-items: center;
     width: 270px;
 }
 .advantages-second-section .item:not(:last-child) {
