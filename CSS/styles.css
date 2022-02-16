@@ -315,6 +315,7 @@ letter-spacing: 0.03em;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     width: 270px;
 }
 .advantages-second-section .item:not(:last-child) {
