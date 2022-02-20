@@ -67,14 +67,6 @@ button {
     color: var(--main-text-color);
 }  
 
-button:hover {
-    color: var(--second-text-color);
-}
-
-button:focus {
-    color: var(--second-text-color);
-}
-
 button {
 cursor: pointer;
 }
