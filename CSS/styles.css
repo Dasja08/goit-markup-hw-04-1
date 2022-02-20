@@ -368,9 +368,21 @@ letter-spacing: 0.03em;
     border-radius: 4px;
 }
 
+.clients-section-icon {
+    width: 106px;
+    height: 60px;
+    fill: rgba(175, 177, 184, 1);
+}
+
+.clients-section-icon:hover,
+.clients-section-icon:focus {
+    fill: var(--second-text-color);
+}
+
 .clients-section-item:not(:last-child) {
     margin-right: 30px;
 }
+
 
 .clients-section-link:hover,
 .clients-section-link:focus {
