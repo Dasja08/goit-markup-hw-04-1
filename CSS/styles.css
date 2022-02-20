@@ -353,6 +353,10 @@ letter-spacing: 0.03em;
     fill: #2196F3;
 }
 
+.our-team-social-icon-item + .our-team-social-icon-item {
+    margin-right: 10px;
+}
+
 .advantages-second-section {
     display: flex;
 }
