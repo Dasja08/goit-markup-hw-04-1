@@ -540,6 +540,25 @@ color: var(--third-text-color);
     margin-bottom: 9px;
 }
 
+.text-join-us {
+    font-family: var(--main-text-font);
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--main-text-color);
+    margin-bottom: 30px;
+    }
+
+.section-footer-flex {
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+}
+
 /* Стиль для Portfolio */
 
 .container-portfolio {
