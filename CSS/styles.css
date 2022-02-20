@@ -560,7 +560,6 @@ color: var(--third-text-color);
 
 .section-footer-flex {
     display: flex;
-    justify-content: flex-start;
     align-items: baseline;
 }
  
