@@ -301,9 +301,10 @@ letter-spacing: 0.03em;
     align-items: center;
     justify-content: center;
     margin-bottom: 30px;
-  width: 270px;
-  height: 120px;
-  background-color: #F5F4FA;
+    width: 270px;
+    height: 120px;
+    border-radius: 4px;
+    background-color: #F5F4FA;
 }
 
 .icon-antenna-features {
@@ -314,6 +315,37 @@ letter-spacing: 0.03em;
 .icon-clock-features {
     width: 66px;
     height: 70px;
+}
+
+.icon-schedule-features {
+    width: 54px;
+    height: 70px;
+}
+
+.icon-cosmonaut-features {
+    width: 55px;
+    height: 61px;
+}
+
+.our-team-social-icon-link {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.our-team-social-icon-link:hover {
+    background-color: #2196F3;
+}
+
+.our-team-social-icon {
+    fill: #AFB1B8;
+}
+
+.our-team-social-icon:hover {
+    fill: #2196F3;
 }
 
 .advantages-second-section {
