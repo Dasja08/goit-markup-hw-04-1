@@ -329,6 +329,7 @@ letter-spacing: 0.03em;
 
 .fourth-section-social-icons-list {
     display: flex;
+    justify-content: center;
     list-style: none;
 }
 
@@ -342,7 +343,7 @@ letter-spacing: 0.03em;
 }
 
 .our-team-social-icon-link:hover {
-    background-color: #2196F3;
+    background-color: var(--second-text-color);
 }
 
 .our-team-social-icon {
@@ -350,11 +351,31 @@ letter-spacing: 0.03em;
 }
 
 .our-team-social-icon:hover {
-    fill: #2196F3;
+    fill: var(--second-text-color);
 }
 
 .our-team-social-icon-item + .our-team-social-icon-item {
     margin-right: 10px;
+}
+
+.clients-section-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 92px;
+    width: 170px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+}
+
+.clients-section-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.clients-section-link:hover,
+.clients-section-link:focus {
+    color: var(--second-text-color);
+    border-color: var(--second-text-color);
 }
 
 .advantages-second-section {
