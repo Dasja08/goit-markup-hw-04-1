@@ -374,7 +374,7 @@ letter-spacing: 0.03em;
 
 .clients-section-link:hover,
 .clients-section-link:focus {
-    color: var(--second-text-color);
+    fill: var(--second-text-color);
     border-color: var(--second-text-color);
 }
 
