@@ -327,6 +327,11 @@ letter-spacing: 0.03em;
     height: 61px;
 }
 
+.fourth-section-social-icons-list {
+    display: flex;
+    list-style: none;
+}
+
 .our-team-social-icon-link {
     width: 44px;
     height: 44px;
