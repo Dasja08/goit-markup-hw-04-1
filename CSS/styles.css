@@ -581,6 +581,7 @@ color: var(--third-text-color);
 .footer-section {
     padding-top: 60px;
     padding-bottom: 60px;
+    margin-right: 70px;
 }
 
 .container.join-us {
