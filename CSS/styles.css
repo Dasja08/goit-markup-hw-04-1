@@ -404,7 +404,6 @@ letter-spacing: 0.03em;
     width: 270px;
 }
 
-
 .advantages-second-section .item:not(:last-child) {
     margin-right: 30px;
 }
@@ -419,6 +418,7 @@ text-transform: uppercase;
 color: var(--main-text-color);
 margin-bottom: 10px;
 }
+
 .text-second-section-blocks {
 font-family: var(--main-text-font);
 font-weight: 400;
@@ -532,7 +532,6 @@ color: var(--third-text-color);
 .footer-section {
     padding-top: 60px;
     padding-bottom: 60px;
-    padding-left: 215px;
     padding-right: 70px;
 } 
      
