@@ -580,6 +580,11 @@ color: var(--third-text-color);
     color: var(--fourth-text-color);
 }
 
+.container.join-us {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
 /* Стиль для Portfolio */
 
 .container-portfolio {
