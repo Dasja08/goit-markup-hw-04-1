@@ -588,6 +588,21 @@ color: var(--third-text-color);
     padding-right: 0px;
 }
 
+.our-team-social-icon-link.footer {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.our-team-social-icon-link.footer:hover {
+    background-color: var(--second-text-color);
+    fill: var(--fourth-text-color);
+}
+
 /* Стиль для Portfolio */
 
 .container-portfolio {
