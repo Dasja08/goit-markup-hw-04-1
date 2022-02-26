@@ -528,12 +528,6 @@ color: var(--third-text-color);
 .section-footer {
     background-color: var(--background-color);
 }
-
-.footer-section {
-    padding-top: 60px;
-    padding-bottom: 60px;
-    padding-right: 70px;
-} 
      
 .address-style {
     font-style: normal;
