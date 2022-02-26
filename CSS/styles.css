@@ -344,7 +344,7 @@ letter-spacing: 0.03em;
 }
 
 .our-team-social-icon:hover {
-    fill: var(--second-text-color);
+    fill: var(--fourth-text-color);
 }
 
 .our-team-social-icon-item + .our-team-social-icon-item {
@@ -376,7 +376,7 @@ letter-spacing: 0.03em;
 
 .clients-section-icon:hover,
 .clients-section-icon:focus {
-    fill: var(--second-text-color);
+    fill: rgba(175, 177, 184, 1);
 }
 
 .clients-section-item:not(:last-child) {
