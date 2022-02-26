@@ -529,8 +529,10 @@ color: var(--third-text-color);
 .footer-section {
     padding-top: 60px;
     padding-bottom: 60px;
+    padding-left: 215px;
+    padding-right: 70px;
 } 
-
+     
 .address-style {
     font-style: normal;
 }
@@ -554,7 +556,6 @@ color: var(--third-text-color);
     font-size: 14px;
     line-height: 1.14;
     
-    text-align: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--main-text-color);
@@ -564,14 +565,6 @@ color: var(--third-text-color);
 .section-footer-flex {
     display: flex;
     align-items: baseline;
-}
-
-.container.footer-section {
-    margin-right: 70px;
-}
-
-.container.join-us {
-    justify-content: left;
 }
 
 .text-join-us {
