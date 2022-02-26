@@ -366,6 +366,7 @@ letter-spacing: 0.03em;
     width: 170px;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
+    fill: var(--third-text-color);
 }
 
 .clients-section-icon {
