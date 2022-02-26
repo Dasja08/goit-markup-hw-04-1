@@ -604,7 +604,7 @@ color: var(--third-text-color);
     fill: var(--fourth-text-color);
 }
 
-.our-team-social-icon-item.footer + .our-team-social-icon-item.footer {
+.our-team-social-icon-item.footer:not(:last-child) {
     margin-right: 10px;
 }
 
