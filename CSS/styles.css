@@ -604,6 +604,10 @@ color: var(--third-text-color);
     fill: var(--fourth-text-color);
 }
 
+.our-team-social-icon-item.footer + .our-team-social-icon-item.footer {
+    margin-right: 10px;
+}
+
 /* Стиль для Portfolio */
 
 .container-portfolio {
