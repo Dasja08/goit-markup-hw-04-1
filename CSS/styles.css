@@ -371,7 +371,6 @@ letter-spacing: 0.03em;
 .clients-section-icon {
     width: 106px;
     height: 60px;
-    fill: currentColor;
 }
 
 .clients-section-icon:hover,
@@ -566,7 +565,15 @@ color: var(--third-text-color);
     display: flex;
     align-items: baseline;
 }
- 
+
+.container.footer-section {
+    margin-right: 70px;
+}
+
+.container.join-us {
+    justify-content: left;
+}
+
 .text-join-us {
     color: var(--fourth-text-color);
 }
