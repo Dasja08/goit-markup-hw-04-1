@@ -573,6 +573,11 @@ color: var(--third-text-color);
     color: var(--fourth-text-color);
 }
 
+.container.section-footer-flex {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
 .container.join-us {
     padding-left: 0px;
     padding-right: 0px;
