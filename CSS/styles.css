@@ -563,6 +563,7 @@ color: var(--third-text-color);
     }
 
 .section-footer-flex {
+    justify-content: flex-start;
     display: flex;
     align-items: baseline;
 }
