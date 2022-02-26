@@ -576,6 +576,8 @@ color: var(--third-text-color);
 .container.section-footer-flex {
     padding-left: 0px;
     padding-right: 0px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .container.join-us {
