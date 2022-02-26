@@ -568,6 +568,11 @@ color: var(--third-text-color);
     align-items: baseline;
 }
 
+.footer-section-social-icons-list {
+    display: flex;
+    list-style: none;
+}
+
 .text-join-us {
     color: var(--fourth-text-color);
 }
