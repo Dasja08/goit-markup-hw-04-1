@@ -582,13 +582,16 @@ color: var(--third-text-color);
 .footer-section {
     padding-top: 60px;
     padding-bottom: 60px;
+    max-width: 231px;
+    margin-right: 70px;
 }
 
 .container.join-us {
     padding-left: 0px;
     padding-right: 0px;
-}
-
+    width: 206px;
+} 
+ 
 .our-team-social-icon-link.footer {
     width: 44px;
     height: 44px;
