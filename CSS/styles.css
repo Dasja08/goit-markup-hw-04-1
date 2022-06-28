@@ -577,7 +577,7 @@ color: var(--third-text-color);
     color: var(--fourth-text-color);
 }
 
-.container.section-footer-flex {
+.section-footer-flex {
     padding-left: 0px;
     padding-right: 0px;
 }
@@ -589,12 +589,7 @@ color: var(--third-text-color);
     margin-right: 70px;
 }
 
-.container.section-footer-flex {
-    margin-right: auto;
-    margin-left: 0;
-}
-
-.container.join-us {
+.join-us {
     padding-left: 0px;
     padding-right: 0px;
     width: 206px;
