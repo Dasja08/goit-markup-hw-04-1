@@ -590,6 +590,7 @@ color: var(--third-text-color);
     padding-left: 0px;
     padding-right: 0px;
     width: 206px;
+    margin-right: auto;
 } 
  
 .our-team-social-icon-link.footer {
