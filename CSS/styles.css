@@ -591,13 +591,13 @@ color: var(--third-text-color);
 
 .container.section-footer-flex {
     margin-right: auto;
+    margin-left: 0;
 }
 
 .container.join-us {
     padding-left: 0px;
     padding-right: 0px;
     width: 206px;
-    margin-right: auto;
 } 
  
 .our-team-social-icon-link.footer {
