@@ -575,6 +575,7 @@ color: var(--third-text-color);
 }
 
 .container.section-footer-flex {
+    margin-left: 0%;
     padding-left: 0px;
     padding-right: 0px;
 }
